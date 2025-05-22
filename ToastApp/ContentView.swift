@@ -7,15 +7,28 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ToastView: View {
+    let title: String
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(title)
+                .padding()
+                .background(Color.blue)
+                .clipShape(Capsule())
+            Spacer()
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+struct ContentView: View {
+    var body: some View {
+        Button {
+            ToastService.shared.show(title: "My Message!")
+        } label: {
+            Text("Show the message")
+        }
     }
 }
 

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		92E65C112DDFAD2200EB4583 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 92E65C102DDFAD2200EB4583 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		92E65BCC2DDFA66A00EB4583 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,22 +31,13 @@
 		92E65BBE2DDFA66800EB4583 /* ToastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E65BCB2DDFA66A00EB4583 /* ToastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E65BD52DDFA66A00EB4583 /* ToastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E65C102DDFAD2200EB4583 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		92E65BC02DDFA66800EB4583 /* ToastApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ToastApp;
-			sourceTree = "<group>";
-		};
-		92E65BCE2DDFA66A00EB4583 /* ToastAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToastAppTests;
-			sourceTree = "<group>";
-		};
-		92E65BD82DDFA66A00EB4583 /* ToastAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ToastAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +70,8 @@
 		92E65BB52DDFA66800EB4583 = {
 			isa = PBXGroup;
 			children = (
+				92E65C102DDFAD2200EB4583 /* README.md */,
 				92E65BC02DDFA66800EB4583 /* ToastApp */,
-				92E65BCE2DDFA66A00EB4583 /* ToastAppTests */,
-				92E65BD82DDFA66A00EB4583 /* ToastAppUITests */,
 				92E65BBF2DDFA66800EB4583 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +124,6 @@
 			dependencies = (
 				92E65BCD2DDFA66A00EB4583 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				92E65BCE2DDFA66A00EB4583 /* ToastAppTests */,
-			);
 			name = ToastAppTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +143,6 @@
 			);
 			dependencies = (
 				92E65BD72DDFA66A00EB4583 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				92E65BD82DDFA66A00EB4583 /* ToastAppUITests */,
 			);
 			name = ToastAppUITests;
 			packageProductDependencies = (
@@ -212,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E65C112DDFAD2200EB4583 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
